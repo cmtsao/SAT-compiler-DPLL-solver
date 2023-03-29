@@ -14,6 +14,9 @@ E TREASURES NEXT B D H<br />
 F TREASURES WAND NEXT C G<br />
 G TREASURES NEXT C D F H<br />
 H TREASURES GOLD WAND NEXT G<br />
+>
+where the first line is all the nodes in the maze, the second is all the treasures present in the maze, and the third line is the desired number of steps to obtain all the treasures. <br />
+Each subsequent line is the node with any present treasures after the TREASURES keyword ending the treasures list with the NEXT keyword and the a list of neighboring nodes. 
 ## Frontend 
 Outputs CNF clauses for a maze problem taken from "mazeinput.txt" to be put into DPLLsolver as well as a key at the bottom to be used for Backend
 ## DPLLsolver
